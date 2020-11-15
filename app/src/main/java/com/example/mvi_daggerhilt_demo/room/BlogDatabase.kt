@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [BlogCacheEntity:: class], version = 1)
 
-annotation class BlogDatabase : RoomDatabase() {
+abstract class BlogDatabase: RoomDatabase() {
     abstract fun blogDao(): BlogDao
 
     companion object {

@@ -3,16 +3,15 @@
     package="com.example.mvi_daggerhilt_demo">
 
     <application
-        android:allowBackup="true"
+        android:name=".ChaoApplication"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.MVI_DaggerHilt_Demo">
+        android:supportsRtl="true">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MVI_DaggerHilt_Demo.NoActionBar">
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
