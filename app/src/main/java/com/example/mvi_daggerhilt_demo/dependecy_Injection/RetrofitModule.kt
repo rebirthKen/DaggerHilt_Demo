@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 /***
- * for Hilt it is very easy, we dont need to add these models to
+ * for Hilt it is very easy, we don't need to add these models to
  * components
  * we can just add a @InstallIn and tell it where we are going to be installing it
  */

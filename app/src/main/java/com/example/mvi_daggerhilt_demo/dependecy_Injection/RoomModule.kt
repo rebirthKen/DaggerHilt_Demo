@@ -24,9 +24,4 @@ object RoomModule {
     @Singleton
     @Provides
     fun provideDAO(blogDatabase: BlogDatabase): BlogDao = blogDatabase.blogDao()
-
-    @Singleton
-    @Provides
-    fun provideBlogService(retrofit: Retrofit.Builder): BlogRetrofit = retrofit.build().create(
-        BlogRetrofit::class.java)
 }
